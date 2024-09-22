@@ -25,7 +25,7 @@ function App() {
   
           console.log('Request body:', JSON.stringify(requestBody));
   
-          const res = await fetch('http://localhost:8000/bfhl', {
+          const res = await fetch('http://0.0.0.0:10000/bfhl', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
